@@ -1,0 +1,117 @@
+h1{
+  background-color: orange;
+  text-align: center;
+  font-family: 'open sans',  sans-serif;
+  
+}
+
+fieldset{
+    border: none;
+}
+
+textarea{
+    height: 200px;
+    width: 45%;
+   
+    background-color: #ffc880;
+    border: 2px solid #ffc46a;
+}
+
+.note{
+    width: 350px;
+    background-color: #f3cf57;
+    border: 2px solid #e28802;
+    margin: 25px;
+    float: left;
+    padding: 25px;
+}
+.title{
+    font-size: 0.8em;
+    position: relative;
+    bottom: -25px;
+    right: -55%;
+
+}
+
+.button-one, .button-two, .button-three{
+    text-align: center;
+    cursor: pointer;
+    font-size:20px;
+  }
+  
+  
+  
+  /*Button One*/
+  .button-one {
+    padding:20px 40px;
+    outline: none;
+    background-color: #6fc8ee;
+    border: none;
+      box-shadow: 0 9px #95a5a6;
+   
+  }
+  
+  .button-one:hover{
+    background-color: #2e58cc;
+  }
+  
+  .button-one:active {
+    background-color: #2e58cc;
+    box-shadow: 0 5px #95a5a6;
+    
+  }
+
+  .sub-main{
+    width: 40%;
+    margin: 0px;
+    float: right;
+  }
+  
+
+/*Button Two*/
+.button-two {
+    border-radius: 4px;
+    background-color: #4cb8eb;
+    border: none;
+    padding: 10px;
+    padding-bottom: 13px;
+    height: 35px;
+   
+    
+    margin-left: 25px;
+    
+
+  }
+
+  #btns{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  #showAll{
+    margin-left: 25px;
+  }
+  
+  .button-two span {
+    cursor: pointer;
+    display: inline-block;
+  
+  }
+  
+  .button-two span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button-two:hover span {
+    padding-right: 25px;
+  }
+  
+  .button-two:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
